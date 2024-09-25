@@ -1,0 +1,220 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1a1b;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1;
+}
+
+.whatsapp img {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container img {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.mensagem {
+    padding-top: 50%;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #605c99;
+}
+
+p {
+    font-size: 18px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero h3 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.contact {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.chat-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.chat-box span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.chat-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.chat-message p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.chat-message input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.chat-message button {
+    background-color: #605c99;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chat-box img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.cta {
+    background-color: #605c99;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .omnichannel {
+        padding: 40px 0;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logistics {
+        width: 20px;
+        height: 200px;
+    }
+
+    .channel {
+        top: 70%;
+    }
+
+    .contact {
+        padding: 40px 0;
+    }
+}
